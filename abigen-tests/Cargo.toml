@@ -1,6 +1,6 @@
 [package]
 name = "substreams-abigen-tests"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 description = "Tests package meant to test the generated code of the abigen"
 publish = false
@@ -10,7 +10,7 @@ rust-version = "1.60"
 ethabi = "17.0"
 prost = { version = "0.10.1" }
 prost-types = "0.10.1"
-substreams = { version = "0.0.11" }
+substreams = { version = "0.0.12" }
 substreams-ethereum = { version = "0.1.2", path = "../core" }
 
 # Required so that ethabi > ethereum-types build correctly under wasm32-unknown-unknown
